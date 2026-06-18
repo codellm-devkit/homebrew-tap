@@ -3,28 +3,28 @@
 class CodeanalyzerTypescript < Formula
   desc "CLDK TypeScript analyzer (cants) -- emits canonical CLDK analysis.json"
   homepage "https://github.com/codellm-devkit/codeanalyzer-ts"
-  version "0.2.1"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/codellm-devkit/codeanalyzer-ts/releases/download/v0.2.1/cants-macosx_11_0_arm64"
-      sha256 "8ca4d1e5a3d71311ec841bf17873b64319a594b911696af5083d7bbf2af117f9"
+      url "https://github.com/codellm-devkit/codeanalyzer-ts/releases/download/v0.3.0/cants-macosx_11_0_arm64"
+      sha256 "7db189d60ecd470072220bdbddb8aae87487839c178edab71b2b977d6b2df861"
     end
     on_intel do
-      url "https://github.com/codellm-devkit/codeanalyzer-ts/releases/download/v0.2.1/cants-macosx_10_12_x86_64"
-      sha256 "6c50655b99a25a68e9ac7c568a606c6831e6bfa6b7c73909cc669e4f4da496d9"
+      url "https://github.com/codellm-devkit/codeanalyzer-ts/releases/download/v0.3.0/cants-macosx_10_12_x86_64"
+      sha256 "ebf95a276bd39d0416aff03952ff9bf8de27a2e35b2c956c7b88bc34c74e0cac"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/codellm-devkit/codeanalyzer-ts/releases/download/v0.2.1/cants-manylinux2014_aarch64"
-      sha256 "c3d6d40fc5c1319f931df53ca1d9250518fcba3ad66692b0418d1aaf1fb47861"
+      url "https://github.com/codellm-devkit/codeanalyzer-ts/releases/download/v0.3.0/cants-manylinux2014_aarch64"
+      sha256 "9fa1c6305696689ba76309f6405985ce12e482ed98cdc8075252eca97e690d0d"
     end
     on_intel do
-      url "https://github.com/codellm-devkit/codeanalyzer-ts/releases/download/v0.2.1/cants-manylinux2014_x86_64"
-      sha256 "3d62d82f374fa0774db17ea90c4ace9fd99d6a0f84a4be27d36750e9466bbeea"
+      url "https://github.com/codellm-devkit/codeanalyzer-ts/releases/download/v0.3.0/cants-manylinux2014_x86_64"
+      sha256 "dc265fb3fab96cf8c360799279f8925ed77acfa3d1942e54250306bf92fc314b"
     end
   end
 
