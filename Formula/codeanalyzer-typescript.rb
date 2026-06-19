@@ -2,29 +2,29 @@
 # Do not edit by hand -- changes will be overwritten on the next tag.
 class CodeanalyzerTypescript < Formula
   desc "CLDK TypeScript analyzer (cants) -- emits canonical CLDK analysis.json"
-  homepage "https://github.com/codellm-devkit/codeanalyzer-ts"
-  version "0.3.0"
+  homepage "https://github.com/codellm-devkit/codeanalyzer-typescript"
+  version "0.4.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/codellm-devkit/codeanalyzer-ts/releases/download/v0.3.0/cants-macosx_11_0_arm64"
-      sha256 "7db189d60ecd470072220bdbddb8aae87487839c178edab71b2b977d6b2df861"
+      url "https://github.com/codellm-devkit/codeanalyzer-typescript/releases/download/v0.4.0/cants-macosx_11_0_arm64"
+      sha256 "bbb7bfa623fadbc2349a2860b929513faa8f15b5ffe5788b311175aaecab3b9f"
     end
     on_intel do
-      url "https://github.com/codellm-devkit/codeanalyzer-ts/releases/download/v0.3.0/cants-macosx_10_12_x86_64"
-      sha256 "ebf95a276bd39d0416aff03952ff9bf8de27a2e35b2c956c7b88bc34c74e0cac"
+      url "https://github.com/codellm-devkit/codeanalyzer-typescript/releases/download/v0.4.0/cants-macosx_10_12_x86_64"
+      sha256 "f3eb260b3080ed4980811f8341182bf90176e6c3873ca902f7d51afd098c3b32"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/codellm-devkit/codeanalyzer-ts/releases/download/v0.3.0/cants-manylinux2014_aarch64"
-      sha256 "9fa1c6305696689ba76309f6405985ce12e482ed98cdc8075252eca97e690d0d"
+      url "https://github.com/codellm-devkit/codeanalyzer-typescript/releases/download/v0.4.0/cants-manylinux2014_aarch64"
+      sha256 "e3447d91e224631301251c8a28f8e09b98c0499144ad0d73bf6f5c5054d4a95a"
     end
     on_intel do
-      url "https://github.com/codellm-devkit/codeanalyzer-ts/releases/download/v0.3.0/cants-manylinux2014_x86_64"
-      sha256 "dc265fb3fab96cf8c360799279f8925ed77acfa3d1942e54250306bf92fc314b"
+      url "https://github.com/codellm-devkit/codeanalyzer-typescript/releases/download/v0.4.0/cants-manylinux2014_x86_64"
+      sha256 "1386a47d125ca35927c3624ca3414254ca8e558601cc5c9f3d3ea5aa809c0023"
     end
   end
 
