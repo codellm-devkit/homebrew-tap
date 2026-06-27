@@ -13,7 +13,7 @@ class CodeanalyzerTypescript < Formula
     end
     on_intel do
       url "https://github.com/codellm-devkit/codeanalyzer-typescript/releases/download/v0.4.3/cants-macosx_10_12_x86_64"
-      sha256 "d9d32e6adec359854c6d43179c3600c0360ddd534bad5b38fb61a0cf1e359ebc"
+      sha256 "e629826a8da2b3a6be2c28d899449b81d290b8df0cb543a1a6971684bab751cf"
     end
   end
 
