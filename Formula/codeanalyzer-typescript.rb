@@ -3,28 +3,28 @@
 class CodeanalyzerTypescript < Formula
   desc "CLDK TypeScript analyzer (cants) -- emits canonical CLDK analysis.json"
   homepage "https://github.com/codellm-devkit/codeanalyzer-typescript"
-  version "0.4.3"
+  version "0.5.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/codellm-devkit/codeanalyzer-typescript/releases/download/v0.4.3/cants-macosx_11_0_arm64"
-      sha256 "cfa6c1f36e461824615b0534043eb427f88c8bdced44e943a47034a26c22b778"
+      url "https://github.com/codellm-devkit/codeanalyzer-typescript/releases/download/v0.5.0/cants-macosx_11_0_arm64"
+      sha256 "b50691a78098ab2a0d19fc10961fa9e2d89026fad72a82a9f7a711a78be4350d"
     end
     on_intel do
-      url "https://github.com/codellm-devkit/codeanalyzer-typescript/releases/download/v0.4.3/cants-macosx_10_12_x86_64"
-      sha256 "e629826a8da2b3a6be2c28d899449b81d290b8df0cb543a1a6971684bab751cf"
+      url "https://github.com/codellm-devkit/codeanalyzer-typescript/releases/download/v0.5.0/cants-macosx_10_12_x86_64"
+      sha256 "7ea54b43fcf12cd713c85406761400c0934b050f50905bf363a97f79aeb00436"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/codellm-devkit/codeanalyzer-typescript/releases/download/v0.4.3/cants-manylinux2014_aarch64"
-      sha256 "3cbb7ae90ea3478576a25708799b61cb14ebbe57e7cc6a83f0aa2dd5a4a60dc9"
+      url "https://github.com/codellm-devkit/codeanalyzer-typescript/releases/download/v0.5.0/cants-manylinux2014_aarch64"
+      sha256 "5f80cffe02e8a00653801d988a1861762669f2479552b4f5e395488539e59604"
     end
     on_intel do
-      url "https://github.com/codellm-devkit/codeanalyzer-typescript/releases/download/v0.4.3/cants-manylinux2014_x86_64"
-      sha256 "562dcc426b6af68ebd418ae8b8b4c91b8d4c06a72bea28c407eadb2c0ac3fded"
+      url "https://github.com/codellm-devkit/codeanalyzer-typescript/releases/download/v0.5.0/cants-manylinux2014_x86_64"
+      sha256 "a2f372f0344e611e7c0b4e73ea976c49215508c182755f483af667125d6ac354"
     end
   end
 
