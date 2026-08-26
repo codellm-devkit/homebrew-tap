@@ -3,13 +3,13 @@
 class CodeanalyzerPython < Formula
   desc "CLDK Python analyzer (canpy) -- emits canonical analysis.json or a Neo4j graph"
   homepage "https://github.com/codellm-devkit/codeanalyzer-python"
-  url "https://github.com/codellm-devkit/codeanalyzer-python/releases/download/v1.1.1/codeanalyzer_python-1.1.1.tar.gz"
-  sha256 "78d91286ad81c019428dd078fbbc8ae9780d56631e46a6f017f14567ad0b66b0"
-  version "1.1.1"
+  url "https://github.com/codellm-devkit/codeanalyzer-python/releases/download/v1.2.0/codeanalyzer_python-1.2.0.tar.gz"
+  sha256 "6ea0e3f523fb009b3137c9780eee1f11a21fce13ce481e15029fcc69dad6dd03"
+  version "1.2.0"
   license "Apache-2.0"
 
-  # codeanalyzer-python is a pure-Python PyPI package with heavy native deps
-  # (ray, pandas, numpy). Rather than vendor every transitive dependency as a
+  # codeanalyzer-python is a pure-Python PyPI package with a heavy native dep
+  # (ray). Rather than vendor every transitive dependency as a
   # Homebrew resource, install the pinned PyPI release as an isolated uv tool;
   # uv resolves and caches the environment on first run.
   depends_on "uv"
