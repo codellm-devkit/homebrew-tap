@@ -3,28 +3,28 @@
 class CodeanalyzerGo < Formula
   desc "CLDK Go analyzer (cango) -- emits canonical CLDK analysis.json"
   homepage "https://github.com/codellm-devkit/codeanalyzer-go"
-  version "0.1.0"
+  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/codellm-devkit/codeanalyzer-go/releases/download/v0.1.0/cango-macosx_11_0_arm64"
-      sha256 "537007d1bab781442a85e4abd5c106d7f4f0267ff5baefb0c16e82c57ba469f3"
+      url "https://github.com/codellm-devkit/codeanalyzer-go/releases/download/v0.2.0/cango-macosx_11_0_arm64"
+      sha256 "e9f2abde8192e76dd873db49f437c7b14c668fd3b6215dc8633feca921b1d29a"
     end
     on_intel do
-      url "https://github.com/codellm-devkit/codeanalyzer-go/releases/download/v0.1.0/cango-macosx_10_12_x86_64"
-      sha256 "6dd5df85322cb0aa606cc78bc59a4ce3ea7aca5655ad4292e06121f44b10d773"
+      url "https://github.com/codellm-devkit/codeanalyzer-go/releases/download/v0.2.0/cango-macosx_10_12_x86_64"
+      sha256 "cc69bfbd038ad0e4edf2cc4c810491c907668b2e6215f54693b545aa418e96e1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/codellm-devkit/codeanalyzer-go/releases/download/v0.1.0/cango-manylinux2014_aarch64"
-      sha256 "7e9754e8a83dd0687d81066789d05f0f6d50c753f0b3cd4edc1d663f9c5aa49a"
+      url "https://github.com/codellm-devkit/codeanalyzer-go/releases/download/v0.2.0/cango-manylinux2014_aarch64"
+      sha256 "4223ebb4a6ec886db66c2850d37cac8457a295ef656e4c6373eaddfbf9caf4d6"
     end
     on_intel do
-      url "https://github.com/codellm-devkit/codeanalyzer-go/releases/download/v0.1.0/cango-manylinux2014_x86_64"
-      sha256 "344f195bdbb1d31db251ae56b39cbe6f0b3128b6cf047ca043bbaefcf0b2a021"
+      url "https://github.com/codellm-devkit/codeanalyzer-go/releases/download/v0.2.0/cango-manylinux2014_x86_64"
+      sha256 "747783c62f01e9c2eef42343ab33f1db374d254eebbac4d405bb004b8fecc6b6"
     end
   end
 
