@@ -3,9 +3,9 @@
 class CodeanalyzerPython < Formula
   desc "CLDK Python analyzer (canpy) -- emits canonical analysis.json or a Neo4j graph"
   homepage "https://github.com/codellm-devkit/codeanalyzer-python"
-  url "https://github.com/codellm-devkit/codeanalyzer-python/releases/download/v1.6.2/codeanalyzer_python-1.6.2.tar.gz"
-  sha256 "e2034c870b22334caffd82cf49f9575830789038d5ac1f221c24570aae3dfe4a"
-  version "1.6.2"
+  url "https://github.com/codellm-devkit/codeanalyzer-python/releases/download/v1.7.0/codeanalyzer_python-1.7.0.tar.gz"
+  sha256 "983859e4edc736796b4eda3c24a17cd0aecd29c71917a9e7ea5ffef37debe87e"
+  version "1.7.0"
   license "Apache-2.0"
 
   # codeanalyzer-python is a pure-Python PyPI package with a heavy native dep
